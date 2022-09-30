@@ -8,5 +8,4 @@ recently: https://www.youtube.com/watch?v=F3zGFmPWQVU&t=27s
 This channel is amazing!
 
 I've asked Elson Correia (https://beforesemicolon.com/) to help, and I'm amazed that he's open to help! (It's like a dream come true.) The approach that
-Elson is taking is a bit [Socratic](https://en.wikipedia.org/wiki/Socratic_method), so I'm working on this repository in order refine my ideas and learn
-to most from studying these videos.
+Elson is taking is a bit [Socratic](https://en.wikipedia.org/wiki/Socratic_method), so I'm working on this repository in order refine my ideas and learn the most from studying these videos.
