@@ -1,5 +1,20 @@
 # Generic Unordered Tree
 
+```
+class Tree {
+  #children = new Map() // Could also be a linked list
+  #parent = null;
+  #id = Math.floor(Math.random() * Date.now());
+  #name;
+  
+  constructor(name) {
+    if(!name || typeof name != 'string' || !name.trim().length) {
+      throw new Error('Name must be a non-empty String');
+    }
+  }
+}
+```
+
 - 4,912 views  Aug 4, 2020  Simple walkthrough on how to implement a generic tree data structure in javascript. Intro to tree implementations using simple algorithms and logic.
 - Next Video To Watch: 
   - File System Tree - https://youtu.be/cVTbdo17mYs
@@ -30,9 +45,3 @@
   - facebook = https://www.facebook.com/beforesemicolon
   - codepen = https://codepen.io/beforesemicolon
 - All nodes contain the same information and can do the same type(s) of operations.
-
-```
-class Tree {
-  #children = new Map() // Could also be a linked list
-}
-```
