@@ -30,3 +30,9 @@
   - facebook = https://www.facebook.com/beforesemicolon
   - codepen = https://codepen.io/beforesemicolon
 - All nodes contain the same information and can do the same type(s) of operations.
+
+```
+class Tree {
+  #children = new Map() // Could also be a linked list
+}
+```
