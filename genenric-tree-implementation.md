@@ -34,7 +34,7 @@ class Tree {
     return this.#id;
   }
   
-  get children() {
+  get children() { // In the field definitions, there's a "children" Map()
     return Array.from(this.#children.values());
   }
   
@@ -42,10 +42,19 @@ class Tree {
     return this.#parent;
   }
   
-  get childrenCount() {
+  get childrenCount() { // In the field definitions, there's a "children" Map()
     return this.#children.size;
   }
 }
+```
+
+```
+const tree = new Tree('root');
+
+console.log(tree.name);
+console.log(tree.identifier);
+console.log(tree.parentNode);
+console.log(tree.childrenCount);
 ```
 
 - 4,912 views  Aug 4, 2020  Simple walkthrough on how to implement a generic tree data structure in javascript. Intro to tree implementations using simple algorithms and logic.
