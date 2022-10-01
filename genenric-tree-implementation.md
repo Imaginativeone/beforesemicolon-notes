@@ -37,6 +37,14 @@ class Tree {
   get children() {
     return Array.from(this.#children.values());
   }
+  
+  get parentNode() {
+    return this.#parent;
+  }
+  
+  get childrenCount() {
+    return this.#children.size;
+  }
 }
 ```
 
