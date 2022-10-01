@@ -2,6 +2,7 @@
 
 ```
 class Tree {
+  // The preceding hashtags indicate PRIVATE FIELDS in the Tree Class
   #children = new Map() // Could also be a linked list
   #parent = null;
   #id = Math.floor(Math.random() * Date.now());
