@@ -1,6 +1,7 @@
 # Generic Unordered Tree
 [What do the preceding hashtags mean?](https://github.com/tc39/proposal-class-fields)
-
+[Javascript Maps](https://www.w3schools.com/js/js_object_maps.asp)
+[Linked Lists](https://www.youtube.com/playlist?list=PLpWvGP6yhJUjYVMTzZIQmOHssllxAw8QY)
 ```
 class Tree {
   // The preceding hashtags indicate PRIVATE FIELDS in the Tree Class
