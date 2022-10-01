@@ -1,8 +1,10 @@
 # Generic Unordered Tree
+[What do the preceding hashtags mean?](https://github.com/tc39/proposal-class-fields)
 
 ```
 class Tree {
   // The preceding hashtags indicate PRIVATE FIELDS in the Tree Class
+  // https://github.com/tc39/proposal-class-fields
   #children = new Map() // Could also be a linked list
   #parent = null;
   #id = Math.floor(Math.random() * Date.now());
